@@ -44,3 +44,36 @@ ol {
   --textdark: #535765;
   --textlilght: #c6cad1;
 }
+
+body {
+  background-color: var(--bg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.testimonial {
+  display: grid;
+  max-width: 80vw;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 3.33em;
+}
+.testimonial__daniel {
+  grid-column: 1/3;
+  grid-row: 1/2;
+}
+.testimonial__jonathan {
+  grid-column: 3/4;
+  grid-row: 1/2;
+}
+.testimonial__kira {
+  grid-column: 5/6;
+  grid-row: 1/3;
+}
+.testimonial__jeanette {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+.testimonial__patrick {
+  grid-column: 2/4;
+  grid-row: 2/3;
+}
